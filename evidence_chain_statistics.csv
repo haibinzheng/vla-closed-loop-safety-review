@@ -1,0 +1,38 @@
+Panel,Measure,Category,Unit,Count,Denominator,Percent,Definition
+Stage coverage,Risk signal,All included evidence,Study,47,56,83.9,At least one claim has a non-missing Observable_Signal
+Stage coverage,Monitor verdict,All included evidence,Study,46,56,82.1,At least one claim has a non-missing Monitor_Method
+Stage coverage,Authority,All included evidence,Study,40,56,71.4,At least one claim has a non-missing Intervention_Authority
+Stage coverage,Selected response,All included evidence,Study,38,56,67.9,At least one claim has a non-missing Intervention_Mechanism
+Stage coverage,Executed response,All included evidence,Study,34,56,60.7,Operational non-offline/non-conceptual intervention/evaluation/recovery claim with a response
+Stage coverage,Observed outcome,All included evidence,Study,48,56,85.7,Operational non-offline/non-conceptual evaluation/performance claim
+Stage coverage,Risk signal,All included evidence,Claim,202,254,79.5,Non-missing Observable_Signal
+Stage coverage,Monitor verdict,All included evidence,Claim,193,254,76.0,Non-missing Monitor_Method
+Stage coverage,Authority,All included evidence,Claim,133,254,52.4,Non-missing Intervention_Authority
+Stage coverage,Selected response,All included evidence,Claim,107,254,42.1,Non-missing Intervention_Mechanism
+Stage coverage,Executed response,All included evidence,Claim,69,254,27.2,Operational non-offline/non-conceptual intervention/evaluation/recovery claim with a response
+Stage coverage,Observed outcome,All included evidence,Claim,86,254,33.9,Operational non-offline/non-conceptual evaluation/performance claim
+Stage coverage,Risk signal,Linked evidence,Experiment cell,475,891,53.3,Experiment cell inherits the stage from at least one linked claim
+Stage coverage,Monitor verdict,Linked evidence,Experiment cell,439,891,49.3,Experiment cell inherits the stage from at least one linked claim
+Stage coverage,Authority,Linked evidence,Experiment cell,271,891,30.4,Experiment cell inherits the stage from at least one linked claim
+Stage coverage,Selected response,Linked evidence,Experiment cell,233,891,26.2,Experiment cell inherits the stage from at least one linked claim
+Stage coverage,Executed response,Linked evidence,Experiment cell,192,891,21.5,Experiment cell inherits the operational execution stage from at least one linked claim
+Stage coverage,Observed outcome,Linked evidence,Experiment cell,667,891,74.9,Experiment cell inherits an operational outcome stage from at least one linked claim
+Critical interfaces,Verdict to authority,Core,Study,18,56,32.1,Same atomic claim has both fields and at least one non-empty experiment link; study assigned highest relation Core over Bridge over Adjacent
+Critical interfaces,Verdict to authority,Bridge,Study,5,56,8.9,Same atomic claim has both fields and at least one non-empty experiment link; study assigned highest relation Core over Bridge over Adjacent
+Critical interfaces,Verdict to authority,Adjacent,Study,15,56,26.8,Same atomic claim has both fields and at least one non-empty experiment link; study assigned highest relation Core over Bridge over Adjacent
+Critical interfaces,Response to execution,Core,Study,16,56,28.6,Same atomic claim has selected response and operational execution evidence with at least one non-empty experiment link
+Critical interfaces,Response to execution,Bridge,Study,5,56,8.9,Same atomic claim has selected response and operational execution evidence with at least one non-empty experiment link
+Critical interfaces,Response to execution,Adjacent,Study,13,56,23.2,Same atomic claim has selected response and operational execution evidence with at least one non-empty experiment link
+Critical interfaces,Execution to outcome,Core,Study,14,56,25.0,Same atomic claim has operational execution and outcome evidence with at least one non-empty experiment link
+Critical interfaces,Execution to outcome,Bridge,Study,5,56,8.9,Same atomic claim has operational execution and outcome evidence with at least one non-empty experiment link
+Critical interfaces,Execution to outcome,Adjacent,Study,12,56,21.4,Same atomic claim has operational execution and outcome evidence with at least one non-empty experiment link
+Evidence composition,Evidence relation,Core,Claim,153,254,60.2,Claim-level evidence relation
+Evidence composition,Evidence relation,Bridge,Claim,21,254,8.3,Claim-level evidence relation
+Evidence composition,Evidence relation,Adjacent,Claim,80,254,31.5,Claim-level evidence relation
+Evidence composition,Evidence setting,Conceptual/formal,Claim,24,254,9.4,Conceptual_Synthesis
+Evidence composition,Evidence setting,Offline,Claim,91,254,35.8,Offline_Digital
+Evidence composition,Evidence setting,Simulation/HIL,Claim,89,254,35.0,Closed_Loop_Simulation
+Evidence composition,Evidence setting,Controlled physical,Claim,37,254,14.6,Controlled_Real_Robot
+Evidence composition,Evidence setting,Mixed,Claim,11,254,4.3,Mixed_Settings
+Evidence composition,Evidence setting,Field,Claim,2,254,0.8,Field_Deployment
+Strict transition endpoint,Verified safe-state recovery,Core,Claim,1,254,0.4,Recovery_Level equals Verified_Safe_State_Recovery

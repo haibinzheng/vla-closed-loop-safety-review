@@ -1,0 +1,26 @@
+{
+  "executed_at_utc": "2026-09-17T02:26:59+00:00",
+  "window": {
+    "start": "2026-07-29",
+    "end": "2026-09-17"
+  },
+  "query_operations": 15,
+  "successful_operations": 15,
+  "failed_operations": 0,
+  "normalized_source_rows": 9744,
+  "deduplicated_records": 4394,
+  "existing_corpus_matches": 5,
+  "new_full_text_priority": 337,
+  "new_metadata_screen": 212,
+  "contextual_metadata": 587,
+  "not_prioritized": 3182,
+  "retracted_or_updated": 71,
+  "disposition_counts": {
+    "Contextual_Metadata": 587,
+    "Exclude_Retracted_or_Updated": 71,
+    "Existing_Corpus_Update_Check": 5,
+    "New_Full_Text_Priority": 337,
+    "New_Metadata_Screen": 212,
+    "Not_Prioritized": 3182
+  }
+}

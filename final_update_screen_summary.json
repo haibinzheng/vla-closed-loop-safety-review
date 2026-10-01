@@ -1,0 +1,23 @@
+{
+  "screened_priority_records": 64,
+  "initial_decisions": {
+    "Retrieve_Full_Text": 48,
+    "Existing_Corpus_Update_Check": 2,
+    "Exclude_After_Metadata_Screen": 14
+  },
+  "full_text_status": {
+    "Authoritative_HTML_Checked": 4,
+    "PDF_Checked": 40,
+    "Not_Applicable": 16,
+    "Source_Deferred": 3,
+    "Publisher_Full_Text_Checked": 1
+  },
+  "final_eligibility": {
+    "Include_Late_Update_Sensitivity": 41,
+    "Exclude_After_Full_Text": 4,
+    "Existing_Corpus_Update_Check": 2,
+    "Exclude_After_Metadata_Screen": 14,
+    "Source_Deferred": 3
+  },
+  "late_update_sensitivity_studies": 41
+}
